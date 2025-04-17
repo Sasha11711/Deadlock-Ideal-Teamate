@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respawn Timer</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer-display">
+    <button class="timer-button" id="timer-decrease" title="(hotkey) ← Arrow Left">-</button>
+    <span id="timer">00:00</span>
+    <button class="timer-button" id="timer-increase" title="(hotkey) → Arrow Right">+</button>
+  </div>
+  
+  <div class="hotkey-display">
+    <h3>Hotkeys</h3>
+    <p>Decrease timer: ← Arrow Left</p>
+    <p>Increase timer: → Arrow Right</p>
+    <p>Restart Mid-Boss: ↓ Arrow Down</p>
+  </div>
+
+  <div class="grid-container">
+    <div class="block small-camp" id="smallCamp">
+      <h3>Small Camps</h3>
+      <p class="timer" id="smallCampTimer"></p>
+    </div>
+    <div class="block medium-camp" id="mediumCamp">
+      <h3>Medium Camps</h3>
+      <p class="timer" id="mediumCampTimer"></p>
+    </div>
+    <div class="block large-camp" id="largeCamp">
+      <h3>Large Camps</h3>
+      <p class="timer" id="largeCampTimer"></p>
+    </div>
+    <div class="block vault" id="vault">
+      <h3>Casino ( Vaults )</h3>
+      <p class="timer" id="vaultTimer"></p>
+    </div>
+    <div class="block soul-urn" id="soulUrn">
+      <h3>Soul Urn</h3>
+      <p class="timer" id="soulUrnTimer"></p>
+    </div>
+    <div class="block powerup" id="powerup">
+      <h3>Bridge Buff ( Powerup )</h3>
+      <p class="timer" id="powerupTimer"></p>
+    </div>
+    <div class="block mid-boss" id="midBoss">
+      <h3>Mid-Boss</h3>
+      <p class="timer" id="midBossTimer"></p>
+      <button id="restartBtn" title="(hotkey) ↓ Arrow Down">Restart Mid-Boss</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
