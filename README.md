@@ -8,13 +8,22 @@
 
 ## How to Use
 
-1. Download and extract [the code](https://github.com/Sasha11711/Deadlock-Ideal-Teamate/archive/refs/heads/main.zip).
-2. Launch [index.html](index.html)
-3. Adjust the timer using the buttons or hotkeys:
+**Online:**
+
+1. Open the [website](https://sasha11711.github.io/Deadlock-Ideal-Teamate/).
+
+**Locally:**
+
+0. [Download](https://github.com/Sasha11711/Deadlock-Ideal-Teamate/archive/refs/heads/main.zip) and extract the website.
+1. Launch [index.html](index.html).
+
+---
+
+2. Adjust the timer using the buttons or hotkeys:
    - Decrease timer: **← Arrow Left**
    - Increase timer: **→ Arrow Right**
    - Restart Mid-Boss: **↓ Arrow Down**
-4. Watch for visual and audio cues to stay updated on event statuses.
+3. Watch for visual and audio cues to stay updated on event statuses.
 
 ## Future Improvements
 
