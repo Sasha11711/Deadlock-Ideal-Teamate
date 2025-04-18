@@ -17,7 +17,7 @@
 0. [Download](https://github.com/Sasha11711/Deadlock-Ideal-Teamate/archive/refs/heads/main.zip) and extract the website.
 1. Launch [index.html](index.html).
 
----
+##
 
 2. Adjust the timer using the buttons or hotkeys:
    - Decrease timer: **← Arrow Left**
