@@ -3,9 +3,9 @@ const settings = {
     smallCamp: { activateTime: 2 * 60 * 1000, pulseInterval: null },
     mediumCamp: { activateTime: 6 * 60 * 1000, pulseInterval: null },
     largeCamp: { activateTime: 8 * 60 * 1000, pulseInterval: null },
+    powerup: { activateTime: 5 * 60 * 1000, pulseInterval: 5 * 60 * 1000 },
     vault: { activateTime: 8 * 60 * 1000, pulseInterval: null },
     soulUrn: { activateTime: 10 * 60 * 1000, pulseInterval: 5 * 60 * 1000 },
-    powerup: { activateTime: 10 * 60 * 1000, pulseInterval: 5 * 60 * 1000 },
     midBoss: { activateTime: 10 * 60 * 1000, pulseInterval: null }
   };
 

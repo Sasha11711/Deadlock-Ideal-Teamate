@@ -118,14 +118,14 @@
   .large-camp.active { background-image: url(img/tier3.png); }
   .large-camp.pulse { background-image: url(img/tier3_stare.png) !important; }
 
-  .vault { background-image: url(img/no_casino.png); grid-column: 1; grid-row: 2; }
+  .powerup { background-image: url(img/no_buff.png); grid-column: 1; grid-row: 2; }
+  .powerup.active { background-image: url(img/buff.png); }
+
+  .vault { background-image: url(img/no_casino.png); grid-column: 2; grid-row: 2; }
   .vault.active { background-image: url(img/casino.png); }
 
-  .soul-urn { background-image: url(img/no_urn.png); grid-column: 2; grid-row: 2; }
+  .soul-urn { background-image: url(img/no_urn.png); grid-column: 3; grid-row: 2; }
   .soul-urn.active { background-image: url(img/urn.png); }
-
-  .powerup { background-image: url(img/no_buff.png); grid-column: 3; grid-row: 2; }
-  .powerup.active { background-image: url(img/buff.png); }
   
   .mid-boss { background-image: url(img/no_mid.png); grid-column: 1 / span 3; grid-row: 3;}
   .mid-boss.active { background-image: url(img/mid.png); }
